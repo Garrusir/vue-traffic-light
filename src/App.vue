@@ -5,4 +5,8 @@
 </template>
 
 <style>
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: #424242;
+  }
 </style>

@@ -42,7 +42,16 @@ const routes = [
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes
+  routes,
 })
+
+// router.beforeEach((to, from, next) => {
+//     console.log('beforeEach')
+//     console.log('to ', to)
+//     console.log('from', from)
+//     console.log('this', this)
+
+//     next();
+//   })
 
 export default router
